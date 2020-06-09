@@ -1,0 +1,148 @@
+@charset "UTF-8";
+* {
+	box-sizing: border-box;
+}
+html {
+	font-size: 62.5%;
+}
+body {
+	font-size: 1.6rem;
+	margin: 0;
+	line-height: 2;
+	text-align: left;
+	color: #606e61;
+}
+.clearfix::after {
+	content: '';
+	display: block;
+	clear: both;
+	font-size: 0;
+	margin: 0;
+	padding: 0;
+}
+.repairFlux {
+	clear: both;
+}
+.img-responsive {
+	max-width: 100%;
+	height: auto;
+}
+.accueil, main {
+	margin: 0 20%;
+}
+a {
+	color: inherit;
+}
+p {
+	font-family: 'Open Sans', sans-serif;
+}
+h1, h2, h3, h4 {
+	font-family: 'Candal', sans-serif;
+}
+h2 {
+	font-size: 1.8em;
+	margin: 100px 0;
+	color: #224146;
+}
+h3 {
+	font-size: 1.2em;
+	text-transform: capitalize;
+}
+h4 {
+	margin-top: 30px;
+	font-weight: normal;
+	font-size: 1.5em;
+}
+header {
+	text-align: center;
+}
+header img {
+	margin: 30px 0;
+}
+header .firstNav {
+	margin-top: 30px;
+}
+header i {
+	color: #fb8b9b;
+	font-size: 1.7em;
+	margin-bottom: 10px;
+	display: block!important;
+}
+header a {
+	text-transform: capitalize;
+	text-decoration: none;
+	font-weight: bold;
+	color: #174255;
+	font-size: 1.3em;
+	display: inline-block;
+}
+header h1 {
+	font-size: 3em;
+	margin: 100px 0 60px;
+}
+header p {
+	font-size: 2em;
+}
+header .title {
+	width: 100%;
+	background: #1f3e4d url('../img/background.jpg') no-repeat top left / cover;
+	color: white;
+	margin-top: 20px;
+	padding: 10px;
+}
+header .search {
+	background-color: #fb8b9b;
+	text-transform: uppercase;
+}
+header .title p {
+	margin-bottom: 0;
+	font-weight: bold;
+	line-height: 2;
+}
+header .search p {
+	margin-top: 0;
+	color: #fccbd1;
+	text-align: left;
+	text-indent: 100px;
+	line-height: 68.8px;
+}
+footer {
+	background-color: #213e4e;
+	text-align: center;
+	padding: 50px 0;
+}
+footer img {
+	transform: scale(1, 1.2);
+	margin-top: 10px;
+}
+footer p {
+	color: #cac2b5;
+}
+footer a {
+	color: white;
+	text-decoration: none;
+}
+footer .secondNav a {
+	margin-bottom: 35px;
+	display: block;
+	font-weight: bold;
+}
+footer .sign {
+	font-size: 0.8em;
+	padding: 0 15%;
+	line-height: 1.75;
+}
+@media all and (min-width: 800px) {
+	.accueil {
+		margin: 0;
+		display: flex;
+		justify-content: space-around;
+	}
+	.accueil .firstNav {
+		margin-top: 65px;
+	}
+	.secondNav {
+		display: flex;
+		justify-content: space-around;
+	}
+}
